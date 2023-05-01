@@ -9,6 +9,7 @@ ln -sf $dotfiles_dir/clang/.clang-tidy $HOME/.clang-tidy
 ln -sf $dotfiles_dir/nvim $HOME/.config/nvim
 ln -sf $dotfiles_dir/zsh/.zshrc $HOME/.zshrc
 ln -sf $dotfiles_dir/tmux/.tmux.conf $HOME/.tmux.conf
+ln -sf $dotfiles_dir/scripts/tmux-sessionizer $HOME/.local/bin/tmux-sessionizer
 # Add more dotfiles as necessary
 
 echo "Dotfiles installation complete!"
