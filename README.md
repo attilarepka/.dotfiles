@@ -3,7 +3,7 @@
 This is my personal collection of dotfiles that I use to customize my system. These dotfiles include configuration files for various tools that I use on a daily basis, such as:
 
 - clangd
-- nim
+- neovim
 - zsh
 - tmux
   and more
