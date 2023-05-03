@@ -4,12 +4,12 @@
 dotfiles_dir="$HOME/git/.dotfiles"
 
 # Create symbolic links for each dotfile
-ln -sf $dotfiles_dir/clang/.clang-format $HOME/.clang-format
-ln -sf $dotfiles_dir/clang/.clang-tidy $HOME/.clang-tidy
-ln -sf $dotfiles_dir/nvim $HOME/.config/nvim
-ln -sf $dotfiles_dir/zsh/.zshrc $HOME/.zshrc
-ln -sf $dotfiles_dir/tmux/.tmux.conf $HOME/.tmux.conf
-ln -sf $dotfiles_dir/scripts/tmux-sessionizer $HOME/.local/bin/tmux-sessionizer
+ln -si $dotfiles_dir/clang/.clang-format $HOME/.clang-format
+ln -si $dotfiles_dir/clang/.clang-tidy $HOME/.clang-tidy
+ln -si $dotfiles_dir/nvim $HOME/.config/nvim
+ln -si $dotfiles_dir/zsh/.zshrc $HOME/.zshrc
+ln -si $dotfiles_dir/tmux/.tmux.conf $HOME/.tmux.conf
+ln -si $dotfiles_dir/scripts/tmux-sessionizer $HOME/.local/bin/tmux-sessionizer
 # Add more dotfiles as necessary
 
 echo "Dotfiles installation complete!"
