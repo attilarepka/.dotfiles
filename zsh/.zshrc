@@ -274,3 +274,7 @@ fi
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+# vim
+alias vim=nvim
+alias vi=nvim
+# vim end
