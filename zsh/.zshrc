@@ -275,9 +275,10 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 
 
-# Load Angular CLI autocompletion.
-source <(ng completion script)
 # vim
 alias vim=nvim
 alias vi=nvim
 # vim end
+
+# fix: https://github.com/npm/cli/issues/7858
+export NODE_OPTIONS='--disable-warning=ExperimentalWarning'
