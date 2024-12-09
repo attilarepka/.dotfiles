@@ -280,5 +280,5 @@ alias vim=nvim
 alias vi=nvim
 # vim end
 
-# fix: https://github.com/npm/cli/issues/7858
+# fix: https://github.com/npm/cli/issues/7857
 export NODE_OPTIONS='--disable-warning=ExperimentalWarning'
