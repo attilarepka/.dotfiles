@@ -8,6 +8,12 @@ This is my personal collection of dotfiles that I use to customize my system. Th
 - tmux
   and more
 
+## Requirements
+
+``` bash
+sudo apt install xclip fzf zsh-autosuggestions zsh-syntax-highlighting zsh
+```
+
 ## Installation
 
 To install these dotfiles on your system, simply clone the repository to your home directory:
